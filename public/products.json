@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "name": "UV Protection Sunglasses",
+        "brand": "SunShade",
+        "price": 29.99,
+        "rating": 4.8,
+        "stock": 25,
+        "description": "Stylish polarized sunglasses with UV400 protection, perfect for sunny adventures.",
+        "image": "https://images.unsplash.com/photo-1577803645773-f96470509666",
+        "category": "Accessories"
+    },
+    {
+        "id": 2,
+        "name": "Floral Summer Dress",
+        "brand": "SunnyWear",
+        "price": 49.99,
+        "rating": 4.7,
+        "stock": 18,
+        "description": "Lightweight floral dress designed for maximum comfort during warm summer days.",
+        "image": "https://images.unsplash.com/photo-1763294632366-2c21cf8a8764",
+        "category": "Clothing"
+    },
+    {
+        "id": 3,
+        "name": "Hydrating Sunscreen SPF 50+",
+        "brand": "GlowCare",
+        "price": 19.99,
+        "rating": 4.9,
+        "stock": 40,
+        "description": "Broad-spectrum sunscreen with SPF 50+ for all-day protection against harmful UV rays.",
+        "image": "https://images.unsplash.com/photo-1594527964562-32ed6eb11709",
+        "category": "Skincare"
+    },
+    {
+        "id": 4,
+        "name": "Beach Straw Hat",
+        "brand": "CoastStyle",
+        "price": 24.99,
+        "rating": 4.6,
+        "stock": 30,
+        "description": "Wide-brim straw hat that offers sun protection while adding a stylish summer touch.",
+        "image": "https://plus.unsplash.com/premium_photo-1675989087109-f8a00bfea7d1",
+        "category": "Accessories"
+    },
+    {
+        "id": 5,
+        "name": "Women's Summer Sandals",
+        "brand": "WalkEase",
+        "price": 39.99,
+        "rating": 4.5,
+        "stock": 22,
+        "description": "Comfortable and lightweight sandals made for everyday summer wear.",
+        "image": "https://images.unsplash.com/photo-1768212565253-112c8a70b272",
+        "category": "Footwear"
+    },
+    {
+        "id": 6,
+        "name": "Travel Beach Backpack",
+        "brand": "OceanPack",
+        "price": 34.99,
+        "rating": 4.8,
+        "stock": 16,
+        "description": "Spacious waterproof backpack for beach trips, travel, and outdoor adventures.",
+        "image": "https://images.unsplash.com/photo-1557160836-f3a6d1afaab2",
+        "category": "Bags"
+    }
+]
