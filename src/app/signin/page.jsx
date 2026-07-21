@@ -1,6 +1,7 @@
 "use client";
 import { authClient } from "@/lib/auth-client";
 import { Check } from "@gravity-ui/icons";
+import { LogoGooglePlay } from '@gravity-ui/icons';
 import {
     Button,
     Card,
@@ -13,6 +14,11 @@ import {
 } from "@heroui/react";
 import { object } from "better-auth";
 
+const handle = async () => {
+    await authClient.signIn.social({
+        provider: "google",
+    });
+};
 export default function SignInPage() {
     const onSubmit = async (e) => {
         e.preventDefault();
@@ -117,6 +123,8 @@ export default function SignInPage() {
                     </Button>
                 </div>
             </Form>
+            <p className="text-center">OR</p>
+            <button onClick={handle} variant="outline" className="w-full flex items-center justify-center gap-3"><LogoGooglePlay></LogoGooglePlay>login with google</button>
         </Card>
     );
 }
