@@ -1,6 +1,7 @@
 "use client";
 import { authClient } from "@/lib/auth-client";
-import { Check } from "@gravity-ui/icons";
+import { Check, LogoGooglePlay } from "@gravity-ui/icons";
+
 import {
     Button,
     Card,
@@ -14,7 +15,11 @@ import {
 import { object } from "better-auth";
 
 import { useRouter } from "next/navigation";
-
+const handleup = async () => {
+    await authClient.signIn.social({
+        provider: "google",
+    });
+};
 export default function SignUpPage() {
     const router = useRouter();
     const onSubmit = async (e) => {
@@ -128,6 +133,9 @@ export default function SignUpPage() {
                     </Button>
                 </div>
             </Form>
+            <p className="text-center">OR</p>
+            <button onClick={handleup} variant="outline" className="w-full flex items-center justify-center gap-3"><LogoGooglePlay></LogoGooglePlay>login with google</button>
+            <p className="text-center">OR</p>
         </Card>
     );
 }

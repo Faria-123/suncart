@@ -58,7 +58,7 @@ export default function SignInPage() {
 
     return (
         <Card className="border mx-auto w-125 py-10 mt-5">
-            <h1 className="text-center text-2xl font-bold">Sign Up</h1>
+            <h1 className="text-center text-2xl font-bold">Sign In</h1>
 
             <Form className="flex w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>
                 <TextField isRequired name="name" type="text">
@@ -125,6 +125,9 @@ export default function SignInPage() {
             </Form>
             <p className="text-center">OR</p>
             <button onClick={handle} variant="outline" className="w-full flex items-center justify-center gap-3"><LogoGooglePlay></LogoGooglePlay>login with google</button>
+            <p className="text-center">OR</p>
+            {/* <button variant="outline" className="w-full flex items-center justify-center gap-3">Register</button> */}
+
         </Card>
     );
 }
