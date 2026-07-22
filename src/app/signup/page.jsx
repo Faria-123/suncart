@@ -46,10 +46,10 @@ export default function SignUpPage() {
         // }
 
         const result = await authClient.signUp.email({
-            name: userData.name,
-            email: userData.email,
-            password: userData.password,
-            image: userData.image,
+            name: userData?.name,
+            email: userData?.email,
+            password: userData?.password,
+            image: userData?.image,
             callbackURL: "/",
         });
 

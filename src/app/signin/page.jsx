@@ -23,30 +23,16 @@ export default function SignInPage() {
     const onSubmit = async (e) => {
         e.preventDefault();
         const formData = new FormData(e.currentTarget);
-        // console.log(formData.get("name"));
-        const userData = Object.fromEntries(formData.entries());
-        // console.log("form data", userData);
-        // const { data, error } = await authClient.signUp.email({
-        //     name: userData.name, // required
-        //     email: userData.email, // required
-        //     password: userData.password, // required
-        //     image: userData.image,
-        //     callbackURL: "/",
 
-        // });
-        // console.log(data);
-        // if (data) {
-        //     alert("sign up successfully!");
-        // }
-        // else if (error) {
-        //     alert(error.message);
-        // }
+        const userData = Object.fromEntries(formData.entries());
+
+
 
         const result = await authClient.signIn.email({
-            name: userData.name,
-            email: userData.email,
-            password: userData.password,
-            image: userData.image,
+            name: userData?.name,
+            email: userData?.email,
+            password: userData?.password,
+            image: userData?.image,
             callbackURL: "/",
         });
 
@@ -124,7 +110,7 @@ export default function SignInPage() {
                 </div>
             </Form>
             <p className="text-center">OR</p>
-            <button onClick={handle} variant="outline" className="w-full flex items-center justify-center gap-3"><LogoGooglePlay></LogoGooglePlay>login with google</button>
+            <Button onClick={handle} variant="outline" className="w-full flex items-center justify-center gap-3"><LogoGooglePlay></LogoGooglePlay>login with google</Button>
             <p className="text-center">OR</p>
             {/* <button variant="outline" className="w-full flex items-center justify-center gap-3">Register</button> */}
 
