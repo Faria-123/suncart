@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ☀️ SunCart
 
-## Getting Started
+A modern summer-themed eCommerce platform built with Next.js, Tailwind CSS, and HeroUI , and also Better-Auth. SunCart allows users to browse seasonal products such as sunglasses, beach accessories, skincare, and summer outfits. Users can view product details, create an account, sign in securely, and enjoy a clean, responsive shopping experience.
+## Live Website
 
-First, run the development server:
+🔗 
+## Project Purpose
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+SunCart is designed to provide a fast, modern, and user-friendly online shopping experience for summer essentials. The project demonstrates full-stack web development concepts including authentication, dynamic routing, responsive UI, and database integration.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Browse a collection of summer products.
+- View detailed information for each product.
+- User authentication (Sign Up & Sign In).
+- Google Authentication.
+- Protected routes for authenticated users.
+- Fully responsive design for all devices.
+- Modern UI built with HeroUI and Tailwind CSS.
+- Fast performance with Next.js App Router.
+- Dynamic product pages.
+- Attractive and clean user interface.
+- Profile Modification also available.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technologies Used
 
-## Learn More
+- Next.js (App Router)
+- React
+- Tailwind CSS
+- HeroUI
+- Better Auth
+- MongoDB Atlas
+- Gravity UI Icons
 
-To learn more about Next.js, take a look at the following resources:
+## NPM Packages Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+next
+react
+react-dom
+tailwindcss
+@heroui/react
+better-auth
+mongodb
+@gravity-ui/icons
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
