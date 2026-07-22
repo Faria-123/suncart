@@ -3,7 +3,7 @@
 A modern summer-themed eCommerce platform built with Next.js, Tailwind CSS, and HeroUI , and also Better-Auth. SunCart allows users to browse seasonal products such as sunglasses, beach accessories, skincare, and summer outfits. Users can view product details, create an account, sign in securely, and enjoy a clean, responsive shopping experience.
 ## Live Website
 
-🔗 
+🔗 https://suncart-beryl-five.vercel.app/
 ## Project Purpose
 
 SunCart is designed to provide a fast, modern, and user-friendly online shopping experience for summer essentials. The project demonstrates full-stack web development concepts including authentication, dynamic routing, responsive UI, and database integration.
